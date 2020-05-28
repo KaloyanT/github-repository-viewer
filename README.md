@@ -1,4 +1,4 @@
-#GitHub Repository Viewer
+# GitHub Repository Viewer
 Simple service, which allows you to make request to the GitHub API and get the projects with most stars. The programming language used for the projects and a creation date can be specified.
 The creation date indicates that the project must be newer than the specified date. Furthermore, the results can be limited up to a 100. The default is 30.  
 
