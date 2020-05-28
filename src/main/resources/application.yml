@@ -1,0 +1,9 @@
+github:
+  api:
+    url: https://api.github.com
+    # Sometimes fetching 100 results at once from the GitHub API might take even longer than 5 seconds
+    connectionTimeout: 5000
+    readTimeout: 5000
+    endpoints:
+      searchRepositories: /search/repositories
+
